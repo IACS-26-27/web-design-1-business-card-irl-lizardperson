@@ -25,6 +25,14 @@ h6 {
  * (no flexbox or grid). */
 .card p {
   /* Demo style -- remove me and write your own */
-  color: rgb(147, 4, 209);
-  margin-left: 0.6in;
-}
+  color: rgb(166, 249, 93);
+  font-size:x-large;
+  margin-top:0.08in;
+  }
+p{
+      font-family: "Lacquer", system-ui;
+      font-weight: 500;
+      font-style: normal;
+      text-align:center;
+      margin-bottom:0.86in;
+    }
