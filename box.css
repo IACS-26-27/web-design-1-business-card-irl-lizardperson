@@ -23,8 +23,21 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
-.card h1 {
+.card p {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgb(166, 249, 93);
+  }
+p{
+      font-family: "Lacquer", system-ui;
+      font-weight: 500;
+      font-style: normal;
+      text-align:center;
+      margin-bottom:0.86in;
+      background-color:transparent;
+    }
+.card-front{
+  font-size: x-large;
+    background-image: url("images/lizardbackground.png");
+    background-position: center;
+    background-size: cover;
 }
