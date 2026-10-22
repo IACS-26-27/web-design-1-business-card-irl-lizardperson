@@ -26,8 +26,6 @@ h6 {
 .card p {
   /* Demo style -- remove me and write your own */
   color: rgb(166, 249, 93);
-  font-size:x-large;
-  margin-top:0.08in;
   }
 p{
       font-family: "Lacquer", system-ui;
@@ -35,4 +33,11 @@ p{
       font-style: normal;
       text-align:center;
       margin-bottom:0.86in;
+      background-color:transparent;
     }
+.card-front{
+  font-size: x-large;
+    background-image: url("images/lizardbackground.png");
+    background-position: center;
+    background-size: cover;
+}
