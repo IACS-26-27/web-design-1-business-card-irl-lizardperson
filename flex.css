@@ -14,14 +14,39 @@ h6 {
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
-/*
-.card * {
-  outline: 1px dashed red;
+* .card {
+  border: 5px solid gray;
+  border- text-align: center;
+  align-content: flex-start;
 }
-*/
+
+*
 
 /* Your flexbox card styles go here! */
 .card-front {
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.card-back {
+  background-image: url("images/lizardthumb.png");
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  background-color: white;
+  font-family: "Lacquer", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  height: 22px;
+  margin-bottom: 144px;
+}
+
+.dumbtext {
+  max-width: 60ch;
 }
 
 /* Honors: styles for each card size, for example:
